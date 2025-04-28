@@ -158,6 +158,19 @@ ul li::before {
   margin-right: 0;
 }
 
+participants {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+participants span {
+  background-color: #e3f2fd;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
